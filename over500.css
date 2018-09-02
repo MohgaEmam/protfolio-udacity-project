@@ -1,0 +1,137 @@
+body {
+	width:  80% ;
+	background-image: url("img/background3.jpg");
+	flex-wrap: wrap;
+	display:flex;
+    }
+	
+.nameof {
+    position:  relative ;
+    left:  100% ;
+	font-size:  30px ;
+	color:  #01001e ;
+	
+    }
+	 
+.front-end-queen {
+	position:  relative ;
+    left:  100% ;
+	font-size:  20px ;
+	color:  #01001e ;
+	
+	}
+
+hr {
+	height: 5px;
+    color: #123455;
+	background-color: #123455;
+	position:  relative ;
+	bottom:  100px;
+	}
+.udacity_pic {
+	width :  100px ;
+	height :  100px ;
+	position:  relative ;
+	bottom: 150px;
+	}
+	
+.main_pic {
+	position:  relative ;
+	width:  80% ;
+	}
+	
+h2{
+	font-size:  30px ;
+	color:  #191970 ;	
+	}
+	
+.images{
+	width:  calc((700% - 30px)/3) ;
+	}
+	
+.tiger_pic {
+	margin-right: 30px;
+	}
+	
+.Sunflower_pic {
+	margin-right: 30px;
+	}
+	
+.tiger {
+	position:  relative ;
+	font-size:30px;
+	bottom: 100%;
+	}
+	
+.Sunflower {
+	position:  relative ;
+	bottom:  95px ;
+	left:  40% ;
+	font-size:30px;
+
+	}
+	
+.Waterfall {
+	position:  relative ;
+	bottom:  190px ;
+	left:  70% ;
+	font-size:30px;
+
+	}
+	
+.blue_box {
+	position:  relative ;
+	bottom:  900px ;
+	right: 150%;
+	}
+	
+.blue_box_hex {
+	position:  relative ;
+	bottom:  900px ;
+	right:  150% ;
+	font-size:  30px ;
+	font-weight:  bold ;
+	
+	}
+
+.pruple_box {
+	position:  relative ;
+	bottom:  870px ;
+	right: 150%;
+	}
+
+.featured_work {
+	font-weight:bold;
+	font-size:  30px ;
+	color:  #01001e ;
+	
+	}
+
+.normaltext1 {
+	font-size:20px;
+	position:  relative ;
+	bottom:  100px ;
+	
+	}
+
+.normaltext2 {
+	font-size:20px;
+	position:  relative ;
+	bottom:  500px ;
+	left:  35% ;
+	
+	}
+
+.normaltext3 {
+	font-size:20px;
+	position:  relative ;
+	bottom:  250px ;
+	left:  70% ;
+	
+	}
+
+img {
+	position:  relative ;
+	display:flex;
+	max-width : 50%;
+}

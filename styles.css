@@ -1,0 +1,143 @@
+body {
+    padding-left: 20%  ;
+    padding-right: 5%  ;
+    background-image: url("img/background3.jpg") ;
+    flex-wrap: wrap ;
+    display: flex  ;
+}
+
+.nameof {
+    position: relative  ;
+    left: 200%;
+    font-size: 50px  ;
+    color: #01001e  ;
+}
+
+.front-end-queen {
+    position: relative  ;
+    left: 200%  ;
+    font-size: 40px  ;
+    color: #01001e  ;
+}
+
+hr {
+    height: 5px  ;
+    color: #123455  ;
+    background-color: #123455  ;
+    position: relative  ;
+    bottom: 100px  ;
+}
+
+.udacity_pic {
+    position: relative  ;
+    bottom: 150px  ;
+}
+
+.main_pic {
+    position: relative  ;
+}
+
+h2 {
+    font-size: 50px  ;
+    color: #191970  ;
+}
+
+.images {
+    width: calc((700% - 30px)/3)  ;
+}
+
+.tiger_pic {
+    margin-right: 40px  ;
+}
+
+.Sunflower_pic {
+    margin-right: 40px  ;
+}
+
+.tiger {
+    position: relative  ;
+    font-size: 50px  ;
+}
+
+.Sunflower {
+    position: relative  ;
+    bottom: 95px  ;
+    left: 40%  ;
+    font-size: 50px  ;
+}
+
+.Waterfall {
+    position: relative  ;
+    bottom: 190px  ;
+    left: 70%  ;
+    font-size: 50px  ;
+}
+
+.blue_box {
+    position: relative  ;
+    bottom: 900px  ;
+    right: 150%  ;
+}
+
+.blue_box_hex {
+    position: relative  ;
+    bottom: 900px  ;
+    right: 150%  ;
+    font-size: 30px  ;
+    font-weight: bold  ;
+}
+
+.pruple_box {
+    position: relative  ;
+    bottom: 870px  ;
+    right: 150%  ;
+}
+
+.featured_work {
+    font-weight: bold  ;
+    font-size: 50px  ;
+    color: #01001e  ;
+}
+
+.normaltext1 {
+    font-size: 25px  ;
+    position: relative  ;
+    bottom: 150px  ;
+}
+
+.normaltext2 {
+    font-size: 25px  ;
+    position: relative  ;
+    bottom: 200px  ;
+    left: 35%  ;
+}
+
+.normaltext3 {
+    font-size: 25px  ;
+    position: relative  ;
+    bottom: 250px  ;
+    left: 70%  ;
+}
+
+img {
+    max-width: 100%  ;
+}
+
+@media screen and (min-device-width: 1000px) and (max-device-width: 1200px) {
+    body {
+        display: flex  ;
+        flex-wrap: wrap  ;
+        width: 100%  ;
+    }
+    .main_pic {
+        background-position: right;
+        max-width: 100%  ;
+    }
+    .front-end-queen .nameof {
+        font-size: 40%  ;
+        position: relative  ;
+    }
+    .normaltext1 .normaltext2 .normaltext3 {
+        font-size: 15px  ;
+    }
+}
